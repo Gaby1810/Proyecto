@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover {
-  color: #fffacd; /* Dorado más claro */
+  color: #fdfcfa; /* Dorado más claro */
   text-shadow: 2px 2px 4px #000;
 }
 
@@ -151,16 +151,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .dropdown:hover > ul {
   display: block;
+  background-color: #000;
 }
 
 /* Submenú de segundo nivel ajustado */
 .navbar .dropdown ul li {
   position: relative;
+  background-color: #000;
+  
+  
 }
 
 .navbar .dropdown ul li ul {
   top: 0;
   left: 100%; /* Asegura que el segundo submenú se despliegue a la derecha */
+  
 }
 
 /* Responsive Design */
@@ -276,8 +281,6 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 8px #ffe8a6;
 }
 
-
-/* Mural de información */
 /* Mural de información */
   
   
